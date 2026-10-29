@@ -1,0 +1,17 @@
+{
+    "name": "com.bit34games.makerpanels",
+    "displayName": "Bit34 MakerPanels - Level editor UI parts",
+    "version": "0.1.0",
+    "description": "The UI parts an in-game level editor is built from: a panel of labelled fields, and a list of things to pick from. Both are Unity views a consumer subclasses, and neither knows what it is editing. A panel is a field list rather than owning one, so anything beside its fields goes into the list as a field — a button is a field, a dropdown is a field.",
+    "unity": "2019.4",
+    "documentationUrl": "https://github.com/bit34/Bit34-MakerPanels-UPM/",
+    "author":
+    {
+      "name": "Bit34 Games",
+      "url": "https://github.com/bit34"
+    },
+    "dependencies":
+    {
+        "com.bit34games.presenter": "https://github.com/bit34/bit34-presenter-upm.git#v0.4.0"
+    }
+}
